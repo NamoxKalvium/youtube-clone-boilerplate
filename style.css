@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: black;
+    font-family: 'Roboto' , sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 60px;
+    align-items: center;
+}
+main {
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: #f9f9f9f;
+  }
